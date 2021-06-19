@@ -75,7 +75,7 @@ section{
 
 #my-childhood{
     border-left: 7px solid;
-    background-image: linear-gradient( rgb(212, 132, 118),purple );
+    background-image: linear-gradient( rgb(212, 132, 118),rgb(231, 166, 231) );
     border-image-slice: 1;
     
 }
