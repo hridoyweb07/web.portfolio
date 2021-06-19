@@ -1,18 +1,85 @@
  body{
+     margin: 0px;
     font-family: 'Poppins', sans-serif;
  }
 h1{
  font-size: 50px;
 }
-.name-highlight{
-    color:deeppink;
+.university{
+    text-decoration: none;
+    color: indigo;
+}
+h2{
+    font-size: 40px;
+    
+}
+p{
+    color: dimgrey;
+}
+.pink-highlight{
+    color:hotpink;
 }
 .half-width{
     width: 40%;
     float: left;
     margin-left: 2%;
-    padding-left: 2%;
+    padding-left: 5%;
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-image: url(" images/top-banner.png ");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px; 
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient( 45deg, tomato,lightsalmon);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: rgb(236, 241, 243);
+    font-weight: 700px;
+    
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right ;
+  
+}
+
+.single-experience{
+    box-shadow: 10px 10px 40px rgb(226, 15, 127);
+    border-radius: 5px;
+    background-color:white;
+    height: 80%;
+    
+    
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 10px;
+    
+}
+#full-time{
+    border-left: 7px solid;
+    background-image: linear-gradient(180deg, rgb(89, 95, 95), rgb(21, 186, 252));
+    border-image-slice: 1;
+}
+
+#my-childhood{
+    border-left: 7px solid;
+    background-image: linear-gradient( rgb(212, 132, 118),purple );
+    border-image-slice: 1;
+    
+}
+footer p{
+    text-align-last: center;
+    font-size: 10px;
 }
